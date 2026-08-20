@@ -9,7 +9,7 @@ int linearSearch(const std::vector<int>& arr, int target) {
             return i; // Target found, return index
         }
     }
-    return -1; // Target not found
+    return -1; 
 }
 
 // 2. Binary Search: Works ONLY on sorted vectors
